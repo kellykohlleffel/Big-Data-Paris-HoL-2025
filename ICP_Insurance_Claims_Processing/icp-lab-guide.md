@@ -147,7 +147,7 @@ insurance_claims_processing_connector
 ## Step 2: Start Data Sync in Fivetran (3 minutes)
 
 1. Switch to **Chrome Tab 3 (Fivetran Automated Data Movement)**
-2. Refresh the page and find your newly created connection named "insurance-claims-processing-connector" in the connections list
+2. Refresh the page and find your newly created connection named "insurance_claims_processing_connector" in the connections list
 3. Click on the connection to open the **Status** page
 4. Click the **Start Initial Sync** button
 5. You should see a status message indicating that the sync is **Active** and that it is the first time syncing data for this connection.
