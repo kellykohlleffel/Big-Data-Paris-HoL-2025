@@ -44,9 +44,9 @@ The Higher Education HED custom connector should fetch student academic and enga
   <summary>Click to expand the User prompt and click the Copy icon in the right corner</summary>
 
 ```
-Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/icp_api_spec
+Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/hed_api_spec
 
-Provide a custom connector for Insurance for the icp_data endpoint. 1 table called icp_records - all columns.
+Provide a custom connector for Insurance for the hed_data endpoint. 1 table called hed_records - all columns.
 
 Here is a sample record:
 {
@@ -1075,6 +1075,6 @@ Consider how you might adapt this solution for your own use:
 ## Resources
 - Fivetran Connector SDK Documentation: [https://fivetran.com/docs/connectors/connector-sdk](https://fivetran.com/docs/connectors/connector-sdk)  
 - Fivetran Connector SDK Examples: [https://fivetran.com/docs/connector-sdk/examples](https://fivetran.com/docs/connector-sdk/examples)
-- API Connector Reference: [https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/icp_api_spec](https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/icp_api_spec)
+- API Connector Reference: [https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/hed_api_spec](https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/hed_api_spec)
 - Snowflake Cortex Documentation: [https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions)
 - Snowflake Streamlit Documentation: [https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit](https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit)
