@@ -1,4 +1,4 @@
-# Fivetran Connector SDK Hands on Lab at Big Data London 2025: Insurance Claims Processing
+# Fivetran Connector SDK Hands on Lab at Big Data London 2025: Higher Education Freshman Retention
 
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate higher education student academic and engagement data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering higher education student metrics and **Snowflake Cortex AI-driven** student success automation applications.
