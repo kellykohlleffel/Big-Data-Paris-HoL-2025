@@ -46,44 +46,33 @@ The Higher Education HED custom connector should fetch student academic and enga
 ```
 Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/hed_api_spec
 
-Provide a custom connector for Insurance for the hed_data endpoint. 1 table called hed_records - all columns.
+Provide a custom Fivetran connector for Higher Education for the hed_data endpoint. There is only one dataset called hed_records.
 
 Here is a sample record:
 {
-    "claim_amount": 38079.4717658889,
-    "claim_category": "Vandalism",
-    "claim_date": "2024-10-17",
-    "claim_description": "Vandalism",
-    "claim_id": "CLAIM_000000",
-    "claim_outcome": "Denied",
-    "claim_outcome_confidence": 0.6791716995,
-    "claim_outcome_date": "2024-07-05",
-    "claim_outcome_probability": 0.5032204149,
-    "claim_processing_duration": 39,
-    "claim_processing_end_date": "2024-10-31",
-    "claim_processing_error": false,
-    "claim_processing_error_reduction": 21.6135812311,
-    "claim_processing_notes": "Notes 0",
-    "claim_processing_start_date": "2024-08-20",
-    "claim_processing_time": 12.5729060301,
-    "claim_processing_time_reduction": 7.2574798045,
-    "claim_status": "Reopened",
-    "claim_status_history": "Status 0",
-    "claim_subcategory": "Lightning",
-    "claim_type": "Flood",
-    "customer_email": "customer0@example.com",
-    "customer_id": "CUSTOMER_000000",
-    "customer_interaction_history": "Interaction 0",
-    "customer_name": "Customer 0",
-    "customer_satisfaction_rating": 2,
-    "customer_satisfaction_rating_improvement": 5,
-    "customer_segment": "Commercial",
+    "academic_standing": "Satisfactory Progress",
+    "advisor_id": "ADV_1131",
+    "assignment_submissions": 11,
+    "at_risk_flag": false,
+    "avg_assignment_score": 54.9,
+    "course_completion_rate": 0.99,
+    "credit_hours_attempted": 16,
+    "credit_hours_earned": 15,
+    "current_gpa": 3.13,
+    "discussion_posts": 25,
+    "engagement_score": 63.9,
+    "enrollment_date": "2024-08-11 0:00:00",
+    "financial_aid_amount": 13793.33,
+    "intervention_count": 2,
+    "last_login_date": "2025-07-27 14:28:37",
+    "last_updated": "2025-07-31 23:57:37",
     "last_updated_epoch": 1748797200,
-    "operational_cost": 2836.7727367756,
-    "operational_cost_reduction": 4935.091826606,
-    "policy_effective_date": "2024-10-09",
-    "policy_id": "POLICY_000000",
-    "record_id": "e4fd12be-10f1-4306-8a21-3abe5a9ddb36"
+    "major_code": "PHIL",
+    "plagiarism_incidents": 0,
+    "record_id": "076cc9ae-6c0b-43fd-8d78-277fec3d0a8a",
+    "student_id": "STU_202400000",
+    "total_course_views": 144,
+    "writing_quality_score": 79.3
 }
 ```
 </details>
