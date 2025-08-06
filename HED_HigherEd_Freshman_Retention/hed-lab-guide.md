@@ -46,7 +46,7 @@ The Higher Education HED custom connector should fetch student academic and enga
 ```
 Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/hed_api_spec
 
-Provide a custom connector for Insurance for the hed_data endpoint. 1 table called hed_records - all columns.
+Provide a custom connector for HED for the hed_data endpoint. 1 table called hed_records - all columns.
 
 Here is a sample record:
 {
