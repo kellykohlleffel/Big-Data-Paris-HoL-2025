@@ -341,7 +341,7 @@ def create_metrics_charts(data):
         ).properties(
             title='Engagement by Standing',
             width=380,
-            height=280
+            height=340
         )
         charts.append(('Engagement by Standing', engagement_chart))
     
