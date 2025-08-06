@@ -85,7 +85,7 @@ Here is a sample record:
 
 3. Click the black **Run** button in the upper right
 4. After Claude generates the connector.py code, you will see a response similar to the example connector, but updated for the retail dynamic pricing dataset.
-5. Click [rdp_data](https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/rdp_data) if you'd like to see the dataset.
+5. Click [rdp_api_spec](https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/rdp_api_spec) if you'd like to see the API spec.
 
 ### 1.2 Debug and Deploy the Custom Connector in VS Code
 1. When you see the connector.py code generated in the Anthropic Workbench, click the **Copy** button in the upper right of the code connector.py code block
