@@ -46,29 +46,28 @@ The Pharmaceutical PHR custom connector should fetch clinical trial and patient 
 ```
 Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/phr_api_spec
 
-Provide a custom Fivetran connector for Pharmaceutical Clinical Trials for the phr_data endpoint. There is only one dataset called phr_records.
+Provide a custom connector for Pharma for the phr_data endpoint. 1 table called phr_records - all columns. 
 
 Here is a sample record:
 {
-    "disease_area": "Oncology",
-    "sponsor_name": "BioPharm Solutions",
-    "trial_id": "TRIAL_1131",
-    "protocol_id": "PROT_2024_001",
-    "trial_name": "Phase II Oncology Study",
-    "regulatory_approval_status": "FDA Approved",
-    "trial_status": "Active",
-    "patient_id": "PAT_202400000",
-    "patient_age": 54,
-    "patient_gender": "Female",
-    "site_id": "SITE_076cc9ae",
-    "site_name": "Memorial Clinical Research Center",
-    "enrollment_rate": 0.73,
-    "dropout_rate": 0.12,
-    "enrollment_date": "2024-08-11 0:00:00",
-    "protocol_amendment_date": "2025-07-27 14:28:37",
-    "last_updated": "2025-07-31 23:57:37",
+    "disease_area": "Immunology",
+    "dropout_rate": 24.3023082354,
+    "enrollment_date": "2025-06-17",
+    "enrollment_rate": 99.7464688479,
     "last_updated_epoch": 1748797200,
-    "record_id": "076cc9ae-6c0b-43fd-8d78-277fec3d0a8a"
+    "patient_age": 79,
+    "patient_gender": "Male",
+    "patient_id": "PATIENT_000000",
+    "protocol_amendment_date": "2025-02-19",
+    "protocol_id": "PROTOCOL_000000",
+    "record_id": "b2e363a9-18cd-4b42-b731-6f5fec91f22c",
+    "regulatory_approval_status": "On Hold",
+    "site_id": "SITE_000000",
+    "site_name": "Contract Research Organization",
+    "sponsor_name": "Academic Institution",
+    "trial_id": "TRIAL_000000",
+    "trial_name": "Pain Management",
+    "trial_status": "Inactive"
 }
 ```
 </details>
