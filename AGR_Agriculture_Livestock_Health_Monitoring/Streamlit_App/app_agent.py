@@ -285,6 +285,7 @@ def generate_insights_with_agent_workflow(data, focus_area, model_name, progress
             
         elif focus_area == "Strategic Recommendations":
             health_technology_score = (1 - avg_health_risk) * 100 if avg_health_risk > 0 else 0
+            breed_count = len(data['breed'].unique()) if 'breed' in data.columns else 0
             
             steps = [
                 ("Agricultural Technology Assessment", 15, f"Advanced loading of digital agriculture context with competitive positioning analysis across {total_animals} animals and {species_count} species", f"Analyzed agricultural technology landscape: {species_count} species monitoring, {breed_count} breed management, comprehensive farm digitization assessment completed"),
