@@ -756,6 +756,7 @@ with tabs[0]:
                 use_container_width=True
             )
 
+
 # AI Insights tab
 with tabs[1]:
     st.subheader("✨ AI-Powered Insights with Agent Workflows")
