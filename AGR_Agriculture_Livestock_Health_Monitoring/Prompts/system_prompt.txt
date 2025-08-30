@@ -23,6 +23,12 @@ API-Specific Validations
 3. Rate Limiting - Use retry/backoff mechanisms if needed.  Do not allow more than 200 iterations. If 200 is hit, save the checkpoint again and exit with a friendly message.
 4. Error Handling - Catch and log API-specific error codes
 
+Critical Error Prevention
+These are common errors that MUST be avoided:
+1. Primary Key Assignment - Always use "record_id" as the primary key for all tables. Never use variations like "id", "ID", or any other field name.
+2. Authentication Header - Always use "x-api-key" (with hyphen and lowercase) in session headers. Never use "api-key", "API-Key", "apikey", or any other variation.
+3. Records Processing - When extracting records from the API response, use the correct dataset name format. The pattern is always "{prefix}_records" (e.g., "mso_records", "cds_records", "fpr_records"). Never use "{prefix}_data" format (e.g., "mso_data", "cds_data", "fpr_data") as this will result in zero records being processed.
+
 Working example:
 import requests
 import time
