@@ -1231,7 +1231,7 @@ with tabs[3]:
 
 ## 3.3 Explore the Streamlit in Snowflake Gen AI Data App
 The LocalLink data app should now be running with the following sections:
-- **Metrics**: Visual representation of key metrics including guest satisfaction scores, venue ratings, activity preferences, and local partnership performance
+- **Metrics**: Key performance indicators, guest experience analytics, guest satisfaction distribution, venue ratings by price level, popular activity references, preferred cuisine types, weather impact on guest preferences, transportation efficiency analysis, event first availability status, guest preferences vs venue quality
 - **AI Insights**: Generate in-depth analysis of overall performance, optimization opportunities, financial impact, and strategic recommendations
 - **Insights History**: Access previously generated insights for reference and comparison across different time periods and focus areas.
 - **Data Explorer**: Explore the underlying hospitality data with pagination controls to examine individual guest preferences and concierge recommendation metrics

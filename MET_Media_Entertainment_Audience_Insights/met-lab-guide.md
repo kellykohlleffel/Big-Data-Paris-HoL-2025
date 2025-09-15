@@ -1087,8 +1087,7 @@ with tabs[3]:
 
 ## 3.3 Explore the Streamlit in Snowflake Gen AI Data App
 The Audience Insight data app should now be running with the following sections:
-- **Metrics**: Track social engagement scores, conversion rates, churn risk, and purchase values
-, monitor customer segments, engagement trends, and content performance efficiency, map purchase behavior by age range demographics, and more.
+- **Metrics**: Key performance indicators, audience analytics, social engagement distribution, purchase value analysis, conversion vs engagement, customer segment distribution, age demographics, and website performance
 - **AI Insights**: Generate AI-powered analysis of the media entertainment data across four focus areas (Overall Performance, Optimization Opportunities, Financial Impact, Strategic Recommendations)
 - **Insights History**: Access previously generated AI insights for media entertainment analysis
 - **Data Explorer**: Browse the underlying audience insight records

@@ -1137,7 +1137,7 @@ with tabs[3]:
 
 ## 3.3 Explore the Streamlit in Snowflake Gen AI Data App
 The ProjectFlow AI data app should now be running with the following sections:
-- **Metrics**: Visual representation of key metrics including schedule performance index, cost performance index, resource utilization rates, and critical path optimization
+- **Metrics**: Key performance indicators, construction analytics, schedule performance analysis, resource management, weather impact, equipment utilization, critical path analysis, and risk assessment
 - **AI Insights**: Generate in-depth analysis of overall performance, optimization opportunities, financial impact, and strategic recommendations
 - **Insights History**: Access previously generated AI insights
 - **Data Explorer**: Explore the underlying construction project management data with pagination controls.
