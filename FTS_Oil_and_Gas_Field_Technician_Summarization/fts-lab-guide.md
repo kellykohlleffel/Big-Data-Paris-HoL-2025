@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate oil and gas field technician summarization data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering oil and gas metrics and **Snowflake Cortex AI-driven** field technician task summarization and optimization applications.
 
-The Oil and Gas FTS custom connector should fetch field technician records from a REST API and load them into a single table called `fts_records` in your Snowflake database. The connector should deliver detailed information about field operations, maintenance activities, and technician log summarization for oil and gas operations, including properties like failure rates, maintenance costs, downtime hours, and summarization time savings. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Oil and Gas Field Technician Summarization (FTS) custom connector should fetch field technician records from a REST API and load them into a single table called `fts_records` in your Snowflake database. The connector should deliver detailed information about field operations, maintenance activities, and technician log summarization for oil and gas operations, including properties like failure rates, maintenance costs, downtime hours, and summarization time savings. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

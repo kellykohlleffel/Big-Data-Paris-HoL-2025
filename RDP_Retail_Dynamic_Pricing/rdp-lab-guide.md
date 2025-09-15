@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate retail dynamic pricing data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering retail metrics and **Snowflake Cortex AI-driven** dynamic pricing applications.
 
-The Retail Dynamic Pricing RDP custom connector should fetch pricing, inventory, and product performance data from a REST API and load them into a single table called `rdp_records` in your Snowflake database. The connector should deliver detailed information about product pricing, inventory levels, customer segments, order status, price elasticity, and optimization metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Retail Dynamic Pricing (RDP) custom connector should fetch pricing, inventory, and product performance data from a REST API and load them into a single table called `rdp_records` in your Snowflake database. The connector should deliver detailed information about product pricing, inventory levels, customer segments, order status, price elasticity, and optimization metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

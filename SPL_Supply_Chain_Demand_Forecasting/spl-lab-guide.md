@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate an industry specific dataset from a custom REST API into Snowflake. You'll then create a **Streamlit (in Snowflake)** application with various tools and dashboards powering key metrics as well as a **Snowflake Cortex AI-driven** feature to drive even deeper analytics, descriptive, and prescriptive insights.
 
-The Supply Chain (SPL) custom connector should fetch supply chain records from a REST API and load them into a single table called `spl_records` in your Snowflake database. The connector should deliver detailed information about demand planning systems, point-of-sale terminals, customer relationship management platforms, and market intelligence databases. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Supply Chain Demand Forecasting (SPL) custom connector should fetch supply chain records from a REST API and load them into a single table called `spl_records` in your Snowflake database. The connector should deliver detailed information about demand planning systems, point-of-sale terminals, customer relationship management platforms, and market intelligence databases. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

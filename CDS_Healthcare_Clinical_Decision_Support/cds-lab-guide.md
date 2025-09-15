@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate healthcare data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering healthcare metrics and **Snowflake Cortex AI-driven** clinical decision support applications.
 
-The Healthcare CDS custom connector should fetch clinical decision support records from a REST API and load them into a single table called `cds_records` in your Snowflake database. The connector should deliver detailed information about patient records, medical histories, lab results, diagnoses, treatments, clinical trials, and various healthcare performance metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Healthcare Clinical Decision Support (CDS) custom connector should fetch clinical decision support records from a REST API and load them into a single table called `cds_records` in your Snowflake database. The connector should deliver detailed information about patient records, medical histories, lab results, diagnoses, treatments, clinical trials, and various healthcare performance metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

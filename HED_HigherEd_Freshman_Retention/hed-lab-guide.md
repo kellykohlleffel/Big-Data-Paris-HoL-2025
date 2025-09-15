@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate higher education student academic and engagement data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering higher education student metrics and **Snowflake Cortex AI-driven** student success automation applications.
 
-The Higher Education HED custom connector should fetch student academic and engagement records from a REST API and load them into a single table called `hed_records` in your Snowflake database. The connector should deliver detailed information about student academic and enagement details, including properties like enrollment date, academic standing, current gpa, avg assignment score, engagement score, and at risk flags. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Higher Education Freshman Retention (HED) custom connector should fetch student academic and engagement records from a REST API and load them into a single table called `hed_records` in your Snowflake database. The connector should deliver detailed information about student academic and enagement details, including properties like enrollment date, academic standing, current gpa, avg assignment score, engagement score, and at risk flags. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

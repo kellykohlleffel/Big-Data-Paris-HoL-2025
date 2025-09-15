@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate consumer packaged goods data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering CPG metrics and **Snowflake Cortex AI-driven** consumer insights applications.
 
-The CPG Insights custom connector should fetch consumer packaged goods records from a REST API and load them into a single table called `cpg_records` in your Snowflake database. The connector should deliver detailed information about customer segments, product categories, inventory levels, price optimization, and customer satisfaction metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Consumer Packaged Goods Insights (CPG) custom connector should fetch consumer packaged goods records from a REST API and load them into a single table called `cpg_records` in your Snowflake database. The connector should deliver detailed information about customer segments, product categories, inventory levels, price optimization, and customer satisfaction metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

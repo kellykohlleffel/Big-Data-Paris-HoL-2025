@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate insurance claims processing data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering insurance metrics and **Snowflake Cortex AI-driven** claims processing automation applications.
 
-The Insurance ICP custom connector should fetch claims processing records from a REST API and load them into a single table called `icp_records` in your Snowflake database. The connector should deliver detailed information about insurance claims processing, including properties like claim status, processing metrics, customer satisfaction data, and operational costs. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Insurance Claim Processing (ICP) custom connector should fetch claims processing records from a REST API and load them into a single table called `icp_records` in your Snowflake database. The connector should deliver detailed information about insurance claims processing, including properties like claim status, processing metrics, customer satisfaction data, and operational costs. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

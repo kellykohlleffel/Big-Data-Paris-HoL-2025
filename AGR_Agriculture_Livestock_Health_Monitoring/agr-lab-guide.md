@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate agriculture livestock health monitoring data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering agriculture metrics and **Snowflake Cortex AI-driven** livestock health summarization and optimization applications.
 
-The Agriculture AGR custom connector should fetch livestock health records from a REST API and load them into a single table called `agr_records` in your Snowflake database. The connector should deliver detailed information about livestock health monitoring, veterinary care activities, and AI-powered health risk assessment for agricultural operations, including properties like predicted health risks, vaccination compliance, medication histories, and environmental impact analysis. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Agriculture Livestock Health Monitoring (AGR) custom connector should fetch livestock health records from a REST API and load them into a single table called `agr_records` in your Snowflake database. The connector should deliver detailed information about livestock health monitoring, veterinary care activities, and AI-powered health risk assessment for agricultural operations, including properties like predicted health risks, vaccination compliance, medication histories, and environmental impact analysis. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

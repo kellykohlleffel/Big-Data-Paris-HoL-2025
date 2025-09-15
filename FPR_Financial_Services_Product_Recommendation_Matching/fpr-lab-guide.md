@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate financial product recommendation data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering financial metrics and **Snowflake Cortex AI-driven** financial product matching applications.
 
-The Financial Services FPR custom connector should fetch financial product recommendation records from a REST API and load them into a single table called `fpr_records` in your Snowflake database. The connector should deliver detailed information about customer profiles, account balances, transaction data, product affinities, recommendations, and customer satisfaction metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Financial Product Recommendation (FPR) custom connector should fetch financial product recommendation records from a REST API and load them into a single table called `fpr_records` in your Snowflake database. The connector should deliver detailed information about customer profiles, account balances, transaction data, product affinities, recommendations, and customer satisfaction metrics. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

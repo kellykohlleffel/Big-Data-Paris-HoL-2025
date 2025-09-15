@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate manufacturing material optimization data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering manufacturing metrics and **Snowflake Cortex AI-driven** material selection and optimization applications.
 
-The Manufacturing MSO custom connector should fetch material optimization records from a REST API and load them into a single table called `mso_records` in your Snowflake database. The connector should deliver detailed information about material selection and optimization for manufacturing products, including properties like material characteristics, product performance metrics, cost savings, and design parameters. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Manufacturing Material Supply Optimization (MSO) custom connector should fetch material optimization records from a REST API and load them into a single table called `mso_records` in your Snowflake database. The connector should deliver detailed information about material selection and optimization for manufacturing products, including properties like material characteristics, product performance metrics, cost savings, and design parameters. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 

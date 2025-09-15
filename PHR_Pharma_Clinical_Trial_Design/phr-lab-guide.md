@@ -3,7 +3,7 @@
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate pharmaceutical clinical trial and patient enrollment data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering clinical trial metrics and **Snowflake Cortex AI-driven** trial design optimization applications with advanced agent workflows.
 
-The Pharmaceutical PHR custom connector should fetch clinical trial and patient records from a REST API and load them into a single table called `phr_records` in your Snowflake database. The connector should deliver detailed information about clinical trial protocols and patient enrollment details, including properties like enrollment date, trial status, patient demographics, disease area, enrollment rate, dropout rate, and regulatory approval status. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Pharmaceutical Clinical Trial Design and Optimization (PHR) custom connector should fetch clinical trial and patient records from a REST API and load them into a single table called `phr_records` in your Snowflake database. The connector should deliver detailed information about clinical trial protocols and patient enrollment details, including properties like enrollment date, trial status, patient demographics, disease area, enrollment rate, dropout rate, and regulatory approval status. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 
