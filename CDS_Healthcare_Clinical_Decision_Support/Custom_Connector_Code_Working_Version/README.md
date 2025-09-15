@@ -14,7 +14,7 @@ The Healthcare CDS connector fetches clinical decision support records from a RE
 - **Configuration management**: Customizable API endpoint, page size, and authentication
 - **Minimal permissions**: Requires only an API key to access the CDS data
 - **Data enrichment**: Extracts over 30 healthcare metrics and attributes related to clinical decisions
-- **Efficient processing**: Handles large datasets (750+ records) with minimal resource usage
+- **Efficient processing**: Handles large datasets (600+ records) with minimal resource usage
 - **Healthcare-specific**: Designed to handle clinical data common in healthcare operations
 
 ## Project Structure
@@ -225,7 +225,7 @@ Running query: SELECT * FROM tester.cds_records LIMIT 5;
 ==================== OPERATION SUMMARY ====================
   Operation       | Calls     
   ----------------+------------
-  Upserts         | 750       
+  Upserts         | 600       
   Updates         | 0         
   Deletes         | 0         
   Truncates       | 0         
@@ -248,8 +248,8 @@ In this output, you can observe:
    - Creating checkpoints after every 100 records
    - Terminating when no more pages are available
 5. **Sample Data**: Displays the first 5 records from the extracted dataset to verify content
-6. **Operation Summary**: Shows that 750 records were processed through:
-   - 750 upsert operations
+6. **Operation Summary**: Shows that 600 records were processed through:
+   - 600 upsert operations
    - 1 schema change
    - 7 checkpoint operations (one per page of 100 records)
 7. **Final State**: The cursor value that will be used in the next sync to retrieve only new records
@@ -476,7 +476,7 @@ The application delivers significant clinical and financial value:
 - The connector uses checkpoints to track sync progress, enabling resumable syncs
 - The connector uses cursor-based pagination for efficient data extraction
 - During initial sync, all records will be loaded; subsequent syncs will only fetch new or updated records
-- The CDS API returns approximately 750 healthcare clinical decision support records in a complete dataset
+- The CDS API returns approximately 600 healthcare clinical decision support records in a complete dataset
 - The connector handles paginated requests with a default of 100 records per page
 - The data is optimized for use with Snowflake and the MedMind clinical decision support application
 - While this connector uses synthetic data, the approach mirrors real-world healthcare data extraction patterns

@@ -1,0 +1,32 @@
+Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/met_api_spec
+
+Provide a custom Fivetran connector for Media for the met_data endpoint. There is only one dataset called met_records.
+
+Here is a sample record:
+{
+    "age_range": "35-44",
+    "avg_session_duration": 5.36,
+    "content_preferences": "[\"Action\", \"Adventure\", \"Thriller\"]",
+    "conversion_rate": 9.04,
+    "customer_id": "CUST_770487",
+    "customer_segment": "New Customer",
+    "email_address": "ava.lopez@gmail.com",
+    "engagement_trend": "Mobile Dominant",
+    "first_name": "Ava",
+    "gender": "Prefer not to say",
+    "last_name": "Lopez",
+    "last_purchase_date": "2023-12-14T00:00:00",
+    "last_updated_epoch": 1748797200,
+    "lead_score": 83,
+    "location_city": "San Jose",
+    "location_country": "France",
+    "predicted_churn_risk": 0.89,
+    "purchase_frequency": 22,
+    "recommended_content_type": "Family Movies",
+    "record_id": "d19002cc-0879-4e6b-8724-d255852a529e",
+    "record_timestamp": "2024-11-30T23:57:00",
+    "social_engagement_score": 9.57,
+    "social_media_followers": 4379,
+    "total_purchase_value": 2202.85,
+    "website_sessions": 19
+}

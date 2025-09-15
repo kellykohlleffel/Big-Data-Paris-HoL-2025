@@ -1,0 +1,29 @@
+Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/spl_api_spec
+
+Provide a custom Fivetran connector for Supply Chain Demand Forecasting for the spl_data endpoint. There is only one dataset called spl_records.
+
+Here is a sample record:
+{
+    "actual_sales_units": 4387.63,
+    "adjusted_demand_forecast": 2452.76,
+    "baseline_demand_forecast": 3028.23,
+    "category_growth_rate": 9.55,
+    "competitor_price_index": 110.1,
+    "consumer_confidence_index": 127.6,
+    "current_inventory_level": 3761.98,
+    "economic_indicator_gdp": -1.89,
+    "forecast_accuracy_mape": 39.54,
+    "forecast_date": "2024-11-04 00:00:00.000",
+    "forecast_horizon_days": 90,
+    "last_updated_epoch": 1748797200,
+    "location_code": "DC-CO-719",
+    "market_share_percent": 20.56,
+    "pos_transaction_count": 2481,
+    "product_sku": "GROC-37549",
+    "promotion_discount_percent": 0.0,
+    "promotional_activity_flag": false,
+    "record_id": "a94571cc-a039-4bba-9bdd-8be6827c9dde",
+    "sales_rep_adjustment": 148.3,
+    "seasonal_index": 1.529,
+    "stockout_indicator": false
+}

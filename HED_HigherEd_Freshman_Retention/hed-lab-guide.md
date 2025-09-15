@@ -106,7 +106,7 @@ Here is a sample record:
 
         - Excute the Custom `Connector.py` code you wrote fetching data and executing pagination and checkpoint saving for incremental sync as per your custom code and the current state variable. The helper script emulates an initial full sync.
 
-        - Verifies data loading and schema creation by simulating a full sync (in this case, upserting 750 records into hed_records).
+        - Verifies data loading and schema creation by simulating a full sync (in this case, upserting 600 records into hed_records).
 
         - Queries and displays sample records from the resulting DuckDB table to confirm the connector outputs expected data.
 

@@ -1,0 +1,38 @@
+Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/con_api_spec
+
+Provide a custom Fivetran connector for Construction Project Scheduling for the con_data endpoint. There is only one dataset called con_records.
+
+Here is a sample record:
+{
+    "actual_end_date": "2024-10-24",
+    "actual_start_date": "2024-09-08",
+    "cost_performance_index": 1.02,
+    "critical_path_flag": true,
+    "data_timestamp": "2024-11-17 04:46:00",
+    "equipment_id": "EQ_3861",
+    "equipment_status": "Setup",
+    "equipment_utilization_rate": 0.82,
+    "last_updated_epoch": 1748797200,
+    "material_delivery_date": "2024-11-08",
+    "material_delivery_status": "Cancelled",
+    "percent_complete": 66.1,
+    "precipitation_probability": 32.3,
+    "project_id": "PROJ_2824",
+    "project_name": "Hotel Resort Complex",
+    "record_id": "44638d61-7843-4319-9353-ecb170f3e441",
+    "resource_availability": 0.88,
+    "resource_cost_per_hour": 131.68,
+    "resource_id": "RES_5372",
+    "resource_type": "Material",
+    "risk_score": 77.5,
+    "schedule_performance_index": 1.15,
+    "scheduled_end_date": "2024-10-09",
+    "scheduled_start_date": "2024-08-30",
+    "supplier_id": "SUP_149",
+    "task_id": "TASK_72163",
+    "task_name": "Drywall Installation",
+    "task_status": "Completed",
+    "temperature_fahrenheit": 89.7,
+    "weather_condition": "Snow",
+    "wind_speed_mph": 0.1
+}

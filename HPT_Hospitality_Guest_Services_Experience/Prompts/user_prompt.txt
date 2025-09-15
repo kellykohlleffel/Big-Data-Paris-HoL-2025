@@ -1,0 +1,30 @@
+Here is the API spec for this dataset: https://sdk-demo-api-dot-internal-sales.uc.r.appspot.com/hpt_api_spec
+
+Provide a custom Fivetran connector for Hospitality Guest Service Experience for the hpt_data endpoint. There is only one dataset called hpt_records.
+
+Here is a sample record:
+{
+    "activity_preferences": "Shopping",
+    "event_availability_status": "Available",
+    "event_category": "Sports",
+    "event_id": "EVT_00000",
+    "event_name": "Food Truck Festival",
+    "event_start_datetime": "2024-09-19T15:45:00",
+    "guest_id": "GUEST_00000",
+    "guest_preference_score": 3.85,
+    "guest_sentiment_rating": 8.18,
+    "last_updated_epoch": 1748797200,
+    "preferred_cuisine_types": "Mexican",
+    "recommendation_timestamp": "2024-10-07T11:50:00",
+    "record_id": "2041bd63-f4d5-4e2d-a984-a58550f6dff8",
+    "temperature_fahrenheit": 84.4,
+    "transportation_cost_estimate": 5.17,
+    "transportation_eta_minutes": 10,
+    "venue_id": "VEN_00000",
+    "venue_latitude": 40.749234,
+    "venue_longitude": -73.953105,
+    "venue_name": "The Rooftop Bistro",
+    "venue_price_level": 1,
+    "venue_rating": 2.63,
+    "weather_condition": "Heavy Rain"
+}
