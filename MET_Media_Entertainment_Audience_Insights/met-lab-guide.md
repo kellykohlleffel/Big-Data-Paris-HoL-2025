@@ -1,9 +1,9 @@
 # Fivetran Connector SDK Hands on Lab at Big Data London 2025: Media Entertainment Audience Insights
 
 ## Overview
-In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate an industry specific dataset from a custom REST API into Snowflake. You'll then create a **Streamlit (in Snowflake)** application with various tools and dashboards powering key metrics as well as a **Snowflake Cortex AI-driven** feature to drive even deeper analytics, descriptive, and prescriptive insights.
+In this 20-minute hands-on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate an industry-specific dataset from a custom REST API into Snowflake. You'll then create a **Streamlit (in Snowflake)** application with various tools and dashboards powering key metrics as well as a **Snowflake Cortex AI-driven** feature to drive even deeper analytics, descriptive, and prescriptive insights.
 
-The Media Entertainment Audience Insights (MET) custom connector should media records from a REST API and load them into a single table called `met_records` in your Snowflake database. The connector should deliver detailed information about from social media APIs, customer relationship management systems, and digital analytics platforms. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
+The Media Entertainment Audience Insights (MET) custom connector should fetch media records from a REST API and load them into a single table called `met_records` in your Snowflake database. The connector should deliver detailed information from social media APIs, customer relationship management systems, and digital analytics platforms. It should handle authentication, pagination, error handling, and maintain state between sync runs using a cursor-based approach.
 
 ## Lab Steps Quick Access
 
@@ -144,7 +144,6 @@ media_met_connector
 5. You should see a status message indicating that the sync is **Active** and that it is the first time syncing data for this connection.
 6. Once your sync completes, you will see a message "Next sync will run in x hours" and if you click on the **1 HOUR** selection on the right side, you will see some sync metrics.
     * You may need to refresh the UI to see updated sync progress and logs in the UI. 
-7. Once your sync completes, you will see a message "Next sync will run in x hours" and if you click on the **1 HOUR** selection on the right side, you will see some sync metrics.
 
 ## Step 3: Create a Streamlit in Snowflake Gen AI Data App (5 minutes)
 
