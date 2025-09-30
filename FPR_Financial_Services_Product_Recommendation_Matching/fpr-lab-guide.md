@@ -1,4 +1,4 @@
-# Fivetran Connector SDK Hands on Lab at Big Data London 2025: Financial Product Recommendations
+# Fivetran Connector SDK Hands on Lab at Big Data Paris 2025: Financial Product Recommendations
 
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate financial product recommendation data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering financial metrics and **Snowflake Cortex AI-driven** financial product matching applications.

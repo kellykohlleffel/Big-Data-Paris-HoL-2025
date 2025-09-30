@@ -1,4 +1,4 @@
-# Fivetran Connector SDK Hands on Lab at Big Data London 2025: Oil and Gas Field Technician Summarization
+# Fivetran Connector SDK Hands on Lab at Big Data Paris 2025: Oil and Gas Field Technician Summarization
 
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate oil and gas field technician summarization data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering oil and gas metrics and **Snowflake Cortex AI-driven** field technician task summarization and optimization applications.

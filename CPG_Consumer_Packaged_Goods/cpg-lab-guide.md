@@ -1,4 +1,4 @@
-# Fivetran Connector SDK Hands on Lab at Big Data London 2025: Consumer Packaged Goods Insights
+# Fivetran Connector SDK Hands on Lab at Big Data Paris 2025: Consumer Packaged Goods Insights
 
 ## Overview
 In this 20-minute hands on lab, you'll build a **custom Fivetran connector** using the **Fivetran Connector SDK** and the **Anthropic Workbench** to integrate consumer packaged goods data from a custom REST API into Snowflake. You'll then create a **Streamlit in Snowflake** application powering CPG metrics and **Snowflake Cortex AI-driven** consumer insights applications.
